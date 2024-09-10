@@ -1,0 +1,187 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+      }
+
+      nav .logo{
+        width: 200px;
+        height: 150px;
+        cursor: pointer;
+      }
+
+
+      nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 1% 5%;
+        border-bottom: 1px solid black;
+        z-index: 10;
+        }
+        nav a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 30px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        nav a:hover{
+            color: rgb(116, 116, 116);
+            font-weight: bolder;
+        }
+        .navbtn {
+            background-color: #0f1a3a;
+            border: 0;
+            color: #CAD3C8;
+            outline: 0;
+            padding: 2ex 3ex;
+            border-radius: 10px;
+            font-size: larger;
+        cursor: pointer;
+        }
+        .navbtn a {
+            color: white;
+        }
+
+        .navbtn a:hover{
+           color: #f89b32;
+        }
+
+        .navbtn a i{
+            margin-left: 10px;
+            width: 20px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+            display: block;
+            font-weight: bolder;
+            margin: 15px;
+            position: relative;
+            top: 20%;
+
+        }
+        #link a:hover{
+            color: white;
+        }
+        .header{
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient( #f89b32 0%, #afb9ce 50%, #fc7334 100%);
+            padding: 0 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            grid-template-columns:repeat(12,1fr);
+            grid-template-rows: repeat(12,1fr);
+            
+        }
+        .header h1{
+          margin-top: 100px;
+          font-size: 7vw;
+          line-height: 8vw;
+          font-weight: bold;
+        }
+        .btnheader{ margin: 25PX 0PX;
+        }
+
+        .darkbtn{border: 0;
+        outline: 0;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: large;
+        margin-right: 5%;
+        cursor: pointer;
+        transition: width 2s liner 1s ;
+        }
+
+        .darkbtn:hover{
+            width: 40%;
+        }
+        .darkbtn:focus{
+            color: black;
+            background-color: white;
+
+        }
+
+        .darkbtn i{
+            padding-left: 10px;
+            font-size: 15px;
+        }
+        .lightbtn{
+            border: 0;
+            outline: 0;
+            background-color: #ffffff;
+            color: black;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: large;
+            cursor: pointer;
+            transition: width 2s liner 1s ;
+        }
+
+        .lightbtn i{
+            padding-left: 10px;
+            font-size: 15px;
+        }
+
+
+        .lightbtn:hover{
+            width: 40%;
+         }
+         .lightbtn:focus{
+             color: white;
+             background-color: black;
+ 
+         }
+
+        .header p{
+            font-size: 1em;
+            max-width: 400px;
+
+        }
+        .imgheader{
+          width: 110%;
+          max-width: 35%; 
+          position: absolute; 
+          right: 8%;
+          bottom: 0;
+        }
+        .galerry-main{
+            display: grid;
+            justify-content: space-around;
+            align-content: center;
+            grid-template-columns:50% 50%;
+            gap: 10px;
+            margin-top: 5%;
+            margin-left: 20%;
+
+
+        }
+        .galerry-main img{
+            width: 50%;
+        }
+        .nav-bar{
+            position: relative;
+        }
+        
+        #gallery-h{
+            text-align: center;
+        }
+        .main-contaner{
+            background: linear-gradient( #f89b32 0%, #afb9ce 50%, #fc7334 100%);
+        }
+
